@@ -1,15 +1,19 @@
 name: generate snake
-
+ 
 on:
   schedule:
-    - cron: "0 0 * * *" # tous les jours à minuit (UTC)
-  workflow_dispatch:     # permet de le lancer à la main
+    - cron: "0 */3 * * *" # toutes les 3 heures
+  workflow_dispatch:
   push:
     branches: [main]
-
+ 
 permissions:
   contents: write
-
+ 
+concurrency:
+  group: snake
+  cancel-in-progress: true
+ 
 jobs:
   generate:
     runs-on: ubuntu-latest
@@ -20,7 +24,7 @@ jobs:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/snake-catppuccin.svg?color_snake=#f5c2e7&color_dots=#313244,#3b5a43,#5a8a5f,#7fb87f,#a6e3a1
-
+ 
       - name: push to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
