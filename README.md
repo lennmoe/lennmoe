@@ -1,8 +1,11 @@
 <div align="center">
 
 <h3>hey there . ݁₊ ⊹ . ݁˖ i'm len ! (｡•ᴗ•｡)</h3>
-
-► learning <b>c</b> & breaking things on purpose :p ► i ♡ <a href="https://bun.sh">bun</a> ► <b>len.</b> on discord
+<p align="center">
+learning <b>c</b> & breaking things on purpose :p<br>
+i ♡ <a href="https://bun.sh">bun</a><br>
+<b>len.</b> on discord
+</p>
 
 <a href="https://discord.com/users/435068712786198538"><img src="https://lanyard.cnrad.dev/api/435068712786198538?theme=dark&bg=1e1e2e&borderRadius=20px&hideTimestamp=true&showDisplayName=true&idleMessage=probably%20debugging%20a%20segfault" height="165" alt="discord status" /></a>
 <img src="https://github-readme-stats.vercel.app/api/top-langs?username=lennmoe&locale=en&layout=compact&theme=catppuccin_mocha&hide_border=true&border_radius=20" height="165" alt="top langs" />
