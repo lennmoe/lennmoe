@@ -8,7 +8,7 @@ i ♡ <a href="https://bun.sh">bun</a><br>
 </p>
 
 <a href="https://discord.com/users/435068712786198538"><img src="https://lanyard.cnrad.dev/api/435068712786198538?theme=dark&bg=1e1e2e&borderRadius=20px&hideTimestamp=true&showDisplayName=true&idleMessage=probably%20debugging%20a%20segfault" height="165" alt="discord status" /></a>
-<img src="https://github-readme-stats.vercel.app/api/top-langs?username=lennmoe&locale=en&layout=compact&theme=catppuccin_mocha&hide_border=true&border_radius=20" height="165" alt="top langs" />
+<img src="https://github-readme-stats.shion.dev/api/top-langs/?username=lennmoe&locale=en&layout=compact&theme=catppuccin_mocha&hide_border=true&border_radius=20" height="165" alt="top langs" />
 
 <b>⊹ using</b>
 <img src="https://img.shields.io/badge/Rust-1e1e2e?style=flat&logo=rust&logoColor=fab387">
